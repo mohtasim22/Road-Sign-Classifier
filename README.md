@@ -50,7 +50,7 @@ An image classification model that leverages data collection, augmentation, mode
 ### Model Comparison
 Two additional models— ResNet50, EfficientNet B0 — were also trained and evaluated. However, ResNet-34 achieved the best overall performance.
    <p align="center">
-     <img src="./deployment/assets/accuracy.png.png"
+     <img src="./deployment/assets/accuracy.png"
    </p>
    <p align="center">
   <em>Accuracy comparison across ResNet-34, ResNet50 and EfficientNet B0</em>
