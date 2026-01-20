@@ -1,0 +1,14 @@
+remote_theme: daattali/beautiful-jekyll@master
+plugins:
+  - jekyll-remote-theme
+
+title: Road Sign Classifier
+description: An image classifier that recognizes different types of road signs from images using deep learning.
+
+# Navigation Links 
+navbar-links:
+  Home: "https://atquiya-labiba.github.io/Historical-Architectural-Landmark-Recognizer/"
+  Landmark Recognizer: "landmark_recognizer.html"
+
+sass:
+  style: compressed
