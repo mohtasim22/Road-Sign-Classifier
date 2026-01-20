@@ -6,7 +6,7 @@ layout: page
 
 An image classifier that recognizes different types of road signs from images using deep learning!
 
-Here are the landmarks our recognizer can identify: 
+Here are the road signs that our classifier can identify: 
 1. Stop
 2. Speed Limit
 3. No Entry
