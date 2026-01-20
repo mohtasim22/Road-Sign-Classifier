@@ -122,8 +122,7 @@ layout: page
     </div>
 
     <script type="module">
-        import { Client } from "@gradio/client"
-        
+        import { Client } from "https://esm.sh/@gradio/client";
         const uploadBtn = document.getElementById("uploadBtn");
         const fileInput = document.getElementById("photo");
         const preview = document.getElementById("imageResult");
@@ -173,7 +172,7 @@ layout: page
 
             try {
                 const client = await Client.connect("mohtasim22/road-sign-classifier");
-                const result = await client.predict("/predict", { image: imageFile });
+                const result = await client.predict("/recognize_image", { image: imageFile });
 
                 // Show top prediction
                 const topPrediction = result.data[0].label;

@@ -7,8 +7,8 @@ description: An image classifier that recognizes different types of road signs f
 
 # Navigation Links 
 navbar-links:
-  Home: "https://atquiya-labiba.github.io/Historical-Architectural-Landmark-Recognizer/"
-  Landmark Recognizer: "landmark_recognizer.html"
+  Home: "https://mohtasim22.github.io/Road-Sign-Classifier/"
+  Road Sign Classifier: "road_sign_classifier.html"
 
 sass:
   style: compressed
