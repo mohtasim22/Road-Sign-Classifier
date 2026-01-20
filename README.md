@@ -35,7 +35,7 @@ An image classification model that leverages data collection, augmentation, mode
  After cleaning and removing failed images,the final dataset has 1,815 images of 10 different classes. Details on data preparation can be found [here](./notebooks/data_prep.ipynb) 
  
 ## Training and Data Cleaning
-- The model is trained using ResNet34 as base model and fine tuned for 3 epochs. After data cleaning the model is retrained for 3 epochs achieving accuracy of 97%
+- The model is trained using ResNet34 as base model and fine tuned for 5 epochs. After data cleaning the model is retrained for 3 epochs achieving accuracy of 91%
 - Two other models: ResNet50, EfficientNet B0 are used for comparison. 
 - ResNet-34 performed best in our case because its capacity allows it to learn complex patterns effectively, even from a relatively small dataset, while remaining stable and less prone to underfitting compared to the other models.
 
